@@ -1,0 +1,24 @@
+name: real-estate-price-prediction
+channels:
+  - pypi
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5 
+  - pip=21.0.1
+  - beautifulsoup4=4.9.3
+  - dtreeviz=1.1.4 
+  - xgboost=1.3.3 
+  - waterfallcharts=3.8
+  - scikit-learn=0.24.1 
+  - seaborn=0.11.1
+  - requests=2.25.1 
+  - scipy=1.6.2
+  - pydeck=0.6.1
+  - pandas=1.2.4
+  - numpy=1.20.1
+  - joblib=1.0.1 
+  - notebook=6.3.0
+  - pip:
+    - treeinterpreter==0.2.3
+    - streamlit==0.69.0
